@@ -1,0 +1,13 @@
+.todo-counter {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    color: #0a2351;
+}
+
+.todo-counter span {
+    font-weight: bold;
+    color: #3f51b5;
+}

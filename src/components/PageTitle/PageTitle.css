@@ -1,0 +1,33 @@
+.PageTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    margin:  2rem 0 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0a2351;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1);
+}
+
+.shape-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.shape-divider .shape-fill {
+    fill: #FFFFFF;
+}

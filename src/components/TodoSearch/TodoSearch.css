@@ -1,0 +1,46 @@
+.todo-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .search-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .todo-search {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    border: 1px solid #007bff;
+    border-radius: 1rem;
+    background-color: #fff;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .todo-search:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.5);
+    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5); */
+  }
+  
+  .search-icon {
+    position: absolute;
+    padding: 1rem;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+    font-size: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .todo-search:focus + .search-icon {
+    color: #f1f1f1;
+  }
+  
